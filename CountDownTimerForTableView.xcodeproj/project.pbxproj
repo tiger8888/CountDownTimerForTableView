@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		10D011FC1B4EB84F0085E668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D011FB1B4EB84F0085E668 /* main.m */; };
 		10D011FF1B4EB84F0085E668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D011FE1B4EB84F0085E668 /* AppDelegate.m */; };
-		10D012021B4EB84F0085E668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012011B4EB84F0085E668 /* ViewController.m */; };
 		10D012051B4EB84F0085E668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D012031B4EB84F0085E668 /* Main.storyboard */; };
 		10D012071B4EB84F0085E668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D012061B4EB84F0085E668 /* Images.xcassets */; };
 		10D0120A1B4EB84F0085E668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D012081B4EB84F0085E668 /* LaunchScreen.xib */; };
 		10D012161B4EB84F0085E668 /* CountDownTimerForTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012151B4EB84F0085E668 /* CountDownTimerForTableViewTests.m */; };
+		10D012291B4EB85D0085E668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012201B4EB85D0085E668 /* ViewController.m */; };
+		10D0122A1B4EB85D0085E668 /* UITableView+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012221B4EB85D0085E668 /* UITableView+Style.m */; };
+		10D0122B1B4EB85D0085E668 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012241B4EB85D0085E668 /* TimeModel.m */; };
+		10D0122C1B4EB85D0085E668 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012261B4EB85D0085E668 /* BaseTableViewCell.m */; };
+		10D0122D1B4EB85D0085E668 /* CountDownTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D012281B4EB85D0085E668 /* CountDownTimeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		10D011FB1B4EB84F0085E668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10D011FD1B4EB84F0085E668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10D011FE1B4EB84F0085E668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10D012001B4EB84F0085E668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10D012011B4EB84F0085E668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10D012041B4EB84F0085E668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10D012061B4EB84F0085E668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		10D012091B4EB84F0085E668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		10D0120F1B4EB84F0085E668 /* CountDownTimerForTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownTimerForTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D012141B4EB84F0085E668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10D012151B4EB84F0085E668 /* CountDownTimerForTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTimerForTableViewTests.m; sourceTree = "<group>"; };
+		10D0121F1B4EB85D0085E668 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10D012201B4EB85D0085E668 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10D012211B4EB85D0085E668 /* UITableView+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Style.h"; sourceTree = "<group>"; };
+		10D012221B4EB85D0085E668 /* UITableView+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Style.m"; sourceTree = "<group>"; };
+		10D012231B4EB85D0085E668 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		10D012241B4EB85D0085E668 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		10D012251B4EB85D0085E668 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		10D012261B4EB85D0085E668 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		10D012271B4EB85D0085E668 /* CountDownTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownTimeCell.h; sourceTree = "<group>"; };
+		10D012281B4EB85D0085E668 /* CountDownTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownTimeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,16 @@
 			children = (
 				10D011FD1B4EB84F0085E668 /* AppDelegate.h */,
 				10D011FE1B4EB84F0085E668 /* AppDelegate.m */,
-				10D012001B4EB84F0085E668 /* ViewController.h */,
-				10D012011B4EB84F0085E668 /* ViewController.m */,
+				10D0121F1B4EB85D0085E668 /* ViewController.h */,
+				10D012201B4EB85D0085E668 /* ViewController.m */,
+				10D012211B4EB85D0085E668 /* UITableView+Style.h */,
+				10D012221B4EB85D0085E668 /* UITableView+Style.m */,
+				10D012231B4EB85D0085E668 /* TimeModel.h */,
+				10D012241B4EB85D0085E668 /* TimeModel.m */,
+				10D012251B4EB85D0085E668 /* BaseTableViewCell.h */,
+				10D012261B4EB85D0085E668 /* BaseTableViewCell.m */,
+				10D012271B4EB85D0085E668 /* CountDownTimeCell.h */,
+				10D012281B4EB85D0085E668 /* CountDownTimeCell.m */,
 				10D012031B4EB84F0085E668 /* Main.storyboard */,
 				10D012061B4EB84F0085E668 /* Images.xcassets */,
 				10D012081B4EB84F0085E668 /* LaunchScreen.xib */,
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D012021B4EB84F0085E668 /* ViewController.m in Sources */,
+				10D0122C1B4EB85D0085E668 /* BaseTableViewCell.m in Sources */,
+				10D012291B4EB85D0085E668 /* ViewController.m in Sources */,
 				10D011FF1B4EB84F0085E668 /* AppDelegate.m in Sources */,
+				10D0122D1B4EB85D0085E668 /* CountDownTimeCell.m in Sources */,
 				10D011FC1B4EB84F0085E668 /* main.m in Sources */,
+				10D0122B1B4EB85D0085E668 /* TimeModel.m in Sources */,
+				10D0122A1B4EB85D0085E668 /* UITableView+Style.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
